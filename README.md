@@ -1,8 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+_마지막 업데이트: 2021.07.23_
 
-## Getting Started
-
-First, run the development server:
+## 시작
 
 ```bash
 npm run dev
@@ -10,25 +8,29 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 주요 패키지 버전
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+`package.json`
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.tsx`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```json
+"dependencies": {
+    "@reduxjs/toolkit": "^1.6.1",
+    "next": "11.0.1",
+    "next-redux-wrapper": "^7.0.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.0",
+    "redux-devtools-extension": "^2.13.9",
+    "swr": "^0.5.6",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+  },
+"devDependencies": {
+  "@types/react": "17.0.14",
+  "autoprefixer": "^9",
+  "eslint": "7.31.0",
+  "eslint-config-next": "11.0.1",
+  "postcss": "^7",
+  "typescript": "4.3.5"
+}
+```
